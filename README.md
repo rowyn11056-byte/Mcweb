@@ -38,6 +38,11 @@ npm install --save-dev gh-pages
 npm run deploy
 ```
 
+### Custom domain / CNAME
+If you'd like to use a custom domain, add a file named `CNAME` to the repository root containing your domain (for example `example.com`). When the `gh-pages` workflow publishes, the `CNAME` file will be included and GitHub Pages will serve the site at that custom domain. For convenience I've added a placeholder `CNAME` in the repo — replace its contents with your domain and push.
+
+If you want, I can also help set up DNS records and verify HTTPS for the custom domain.
+
 If you'd like, I can also add a GitHub Pages status badge or configure an automatic CNAME for a custom domain.
 
 ---
