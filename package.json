@@ -1,0 +1,16 @@
+{
+  "name": "mcweb-launcher-demo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://rowyn11056-byte.github.io/Mcweb",
+  "scripts": {
+    "start": "npx live-server --port=5173 --open=./index.html",
+    "deploy": "npx gh-pages -d ."
+  },
+  "description": "Static demo site for a Minecraft launcher UI",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
